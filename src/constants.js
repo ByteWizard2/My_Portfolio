@@ -215,7 +215,7 @@ export const SkillsInfo = [
       id: 0,
       title: "Fashion Cloths E-commerce website",
       description:
-        "A powerful and user-friendly React.js application designed to uncover and showcase detailed GitHub profile information. Simply enter a GitHub username, and the app fetches comprehensive data, including profile stats, repositories, followers, and contributions. The intuitive interface ensures a seamless experience, making it a must-visit tool for developers and recruiters.",
+      "Developed a robust e-commerce platform from scratch, utilising ASP.NET for back-end develop-ment,MS SQL server for database management, RazorPay for seamless payment processing, andSocket.Io for real-time interactions. ",
       image: fashion_cloths,
       tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
       github: "",
