@@ -1,47 +1,31 @@
 // Skills Section Logo's
 import htmlLogo from './assets/tech_logo/html.png';
 import cssLogo from './assets/tech_logo/css.png';
-//import sassLogo from './assets/tech_logo/sass.png';
 import javascriptLogo from './assets/tech_logo/javascript.png';
 import reactjsLogo from './assets/tech_logo/reactjs.png';
-//import angularLogo from './assets/tech_logo/angular.png';
 import reduxLogo from './assets/tech_logo/redux.png';
-//import nextjsLogo from './assets/tech_logo/nextjs.png';
 import tailwindcssLogo from './assets/tech_logo/tailwindcss.png';
-//import gsapLogo from './assets/tech_logo/gsap.png';
-//import materialuiLogo from './assets/tech_logo/materialui.png';
 import bootstrapLogo from './assets/tech_logo/bootstrap.png';
-//import springbootLogo from './assets/tech_logo/springboot.png';
-//import nodejsLogo from './assets/tech_logo/nodejs.png';
-//import expressjsLogo from './assets/tech_logo/express.png';
-//import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import firebaseLogo from './assets/tech_logo/firebase.png';
-//import cLogo from './assets/tech_logo/c.png';
-//import cppLogo from './assets/tech_logo/cpp.png';
-//import javaLogo from './assets/tech_logo/java.png';
-//import pythonLogo from './assets/tech_logo/python.png';
 import typescriptLogo from './assets/tech_logo/typescript.png';
 import gitLogo from './assets/tech_logo/git.png';
 import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import postmanLogo from './assets/tech_logo/postman.png';
-//import mcLogo from './assets/tech_logo/mc.png';
 import figmaLogo from './assets/tech_logo/figma.png';
-//import netlifyLogo from './assets/tech_logo/netlify.png';
+import efcore from './assets/tech_logo/efcore.png';
 import vercelLogo from './assets/tech_logo/vercel.png';
-//import postgreLogo from './assets/tech_logo/postgre.png';
+import net_core from './assets/tech_logo/net_core.png';
 import csharpLogo from './assets/tech_logo/csharp.png';
+import sqlLogo from './assets/tech_logo/sql.png';
+import vs22 from './assets/tech_logo/vs22.jfif'
 
-// Experience Section Logo's
-//import webverseLogo from './assets/company_logo/webverse_logo.png';
-//import agcLogo from './assets/company_logo/agc_logo.png';
-//import newtonschoolLogo from './assets/company_logo/newtonschool_logo.png';
 
 // Education Section Logo's
 import gfgc from './assets/education_logo/gfgc_logo.png';
 import brototyp_logo from './assets/education_logo/brototyp_logo.jpg';
-//import vpsLogo from './assets/education_logo/vps_logo.png';
+
 
 // Project Section Logo's
 import fashion_cloths from './assets/work_logo/fashion_cloths.jpg';
@@ -50,6 +34,8 @@ import emp_managment from './assets/work_logo/emp_managment.png';
 import expense_Tracker from './assets/work_logo/expense_Tracker.png';
 import quiz_app from './assets/work_logo/quiz_app.png';
 import weather_forecast from './assets/work_logo/weather_forecast.png';
+import hotel from './assets/work_logo/hotel.png';
+import netflix from './assets/work_logo/netflix.png'
 
 
 //Skills Section
@@ -60,28 +46,21 @@ export const SkillsInfo = [
     skills: [
       { name: 'HTML', logo: htmlLogo },
       { name: 'CSS', logo: cssLogo },
-      //{ name: 'SASS', logo: sassLogo },
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
-      //{ name: 'Angular', logo: angularLogo },
       { name: 'Redux', logo: reduxLogo },
-      //{ name: 'Next JS', logo: nextjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
-      //{ name: 'GSAP', logo: gsapLogo },
-      //{ name: 'Material UI', logo: materialuiLogo },
       { name: 'Bootstrap', logo: bootstrapLogo },
     ],
   },
   {
     title: 'Backend',
     skills: [
-      //{ name: 'Springboot', logo: springbootLogo },
-      //{ name: 'Node JS', logo: nodejsLogo },
-      //{ name: 'Express JS', logo: expressjsLogo },
-      //{ name: 'MySQL', logo: mysqlLogo },
+      {name: '.Net core', logo: net_core},
+      { name: 'EF Core', logo: efcore },
+      { name: 'MS SQL Server', logo: sqlLogo },
       { name: 'MongoDB', logo: mongodbLogo },
       { name: 'Firebase', logo: firebaseLogo },
-      //{ name: 'PostgreSQL', logo: postgreLogo },
     ],
   },
   {
@@ -102,6 +81,7 @@ export const SkillsInfo = [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
+      { name: 'Visual Studio 2022', logo: vs22},
       { name: 'Postman', logo: postmanLogo },
       //{ name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
@@ -111,61 +91,6 @@ export const SkillsInfo = [
   },
 ];
 
-  export const experiences = [
-    {
-      id: 0,
-      img: "",
-      role: "Fullstack Developer",
-      company: "Webverse Digital",
-      date: "April 2024 - Present",
-      desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
-      skills: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "React JS",
-        "TypeScript",
-        "Node JS",
-        "Tailwind CSS",
-        "MongoDb",
-        "Redux",
-        " Next Js",
-      ],
-    },
-    {
-      id: 1,
-      img: "",
-      role: "Fullstack Engineer",
-      company: "Agumentik Group of Companies",
-      date: "July 2023 - March 2024",
-      desc: "Contributed to innovative projects as a Fullstack Engineer, leading both frontend and backend development using technologies such as HTML, CSS, JavaScript, PHP, SQL, Bootstrap, and ReactJS. Worked closely with the team to deliver responsive, high-performance web applications and improve user experience through seamless integration of various technologies.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "JavaScript",
-        "Tailwind CSS",
-        "HTML",
-        "CSS",
-        "SQL",
-      ],
-    },
-    {
-      id: 2,
-      img: "",
-      role: "Frontend Intern",
-      company: "Newton School",
-      date: "September 2021 - August 2022",
-      desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
-      skills: [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "Bootstrap",
-        "Figma",
-        "Material UI",
-      ],
-    },
-  ];
   
   //Education Section
 
@@ -217,38 +142,38 @@ export const SkillsInfo = [
       description:
       "Developed a robust e-commerce platform from scratch, utilising ASP.NET for back-end develop-ment,MS SQL server for database management, RazorPay for seamless payment processing, andSocket.Io for real-time interactions. ",
       image: fashion_cloths,
-      tags: ["HTML", "CSS", "JavaScript", "React JS", "API"],
-      github: "",
+      tags: ["ASP.NETcore","C#","SQL Server","Google OAuth","razorpay","Asure","bootstrap,","HTML", "CSS", "JavaScript"],
+      github: "https://github.com/ByteWizard2/fashioncloths",
       webapp: "",
     },
     {
       id: 1,
       title: "User Management System",
       description:
-        "A full-stack quiz-based platform designed for GATE/UGC NET students to practice previous year questions and create customized tests. The platform offers comprehensive profile stats and detailed results, helping students track and improve their preparation journey effectively.",
+        "Built a full-stack User Management System using ASP.NET Core and React.js, supporting secure user registration, login, profile updates, role management, and responsive UI design with JWT-based authentication and authorization.",
       image: user_managment,
-      tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "CSS", "JavaScript"],
-      github: "",
+      tags: ["React JS", "ASP.Net Web api", "MS SQL Server","Type Script" ,"tailwindcss", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/ByteWizard2/User-Managment-backend",
       webapp: "",
     },
     {
       id: 2,
       title: "Employee Management System",
       description:
-        "A React-based web application that provides movie recommendations based on different criteria, such as genres, user preferences, and popular trends. The intuitive design and smooth experience make it a go-to app for movie enthusiasts.",
+        "Employee Management System is a web app built with React, React Router, and Tailwind CSS for efficient employee management. It allows users to add, view, update, and organize employee details with a modern and responsive interface.",
       image: emp_managment,
-      tags: ["React JS", "API", "HTML", "CSS", "JavaScript"],
-      github: "",
+      tags: ["React JS", "API","tailwindcss", "HTML", "CSS", "JavaScript"],
+      github: "https://github.com/ByteWizard2/EmployeeManagementSystem",
       webapp: "",
     },
     {
       id: 3,
       title: "Expense Tracker",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
+        "Expense Tracker is a web app for efficient expense management, allowing users to create categories, track transactions, and analyze spending through interactive pie and line charts.",
       image: expense_Tracker,
-      tags: ["React JS", "Node.js", "NPM", "Validation"],
-      github: "",
+      tags: ["ASP.NET Core","C#","JavaScript","MS SQL Server","Syncfusion","HTML","HTML","Tailwind CSS","MVC Architecture","GitHub"],
+      github: "https://github.com/ByteWizard2/Expense-Tracker",
       webapp: "",
     },
     {
@@ -257,18 +182,38 @@ export const SkillsInfo = [
       description:
         "A productivity-boosting Chrome extension designed to help users manage and remember their daily tasks. Built using JavaScript, it offers a simple interface with reminders and task notifications to keep users on track.",
       image: weather_forecast,
-      tags: ["JavaScript", "Chrome Extension", "HTML", "CSS"],
-      github: "",
+      tags: ["JavaScript", "API", "HTML", "CSS"],
+      github: "https://github.com/ByteWizard2/WeatherApp",
       webapp: "",
     },
     {
       id: 5,
       title: "Quiz Web App",
       description:
-        "The official website for Webverse Digital, a creative digital marketing agency. Built using HTML, CSS, and JavaScript, it features visually appealing animations and a clean design to showcase the agency's services.",
+        "QuizWebApp is a web-based quiz platform where users can log in, take quizzes, and receive instant feedback. At the end, they can review correct and incorrect answers with a performance summary.",
       image: quiz_app,
-      tags: ["HTML", "CSS", "JavaScript", "Framer Motion"],
-      github: "",
+      tags: ["ASP.NET Core","Web Api","C#","React.js","React Router","MS SQL Server","HTML", "CSS", "JavaScript"],
+      github: "https://github.com/ByteWizard2/QuizWebApp",
+      webapp: "",
+    },
+    {
+      id: 6,
+      title: "HotelQueue",
+      description:
+        "HotelQueue is a web-based app for viewing, adding, and managing hotels, including hotel numbers, villa assignments, and amenities.",
+      image: hotel,
+      tags: ["ASP.NET Core","C#","MS SQL Server","Clean Architecture","HTML", "CSS", "JavaScript"],
+      github: "https://github.com/ByteWizard2/QuizWebApp",
+      webapp: "",
+    },
+    {
+      id: 7,
+      title: "Netflix  Clone",
+      description:
+        "A sleek Netflix UI clone developed with React and Firebase aimed at replicating the user interface of the popular streaming platform",
+      image: netflix,
+      tags: ["React","JavaScript","Firebase","HTML", "CSS"],
+      github: "https://github.com/ByteWizard2/netflix-clone",
       webapp: "",
     },
     

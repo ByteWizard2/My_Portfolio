@@ -121,14 +121,14 @@ const Work = () => {
                 >
                   View Code
                 </a>
-                <a
+                {/* <a
                   href={selectedProject.webapp}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 bg-purple-600 hover:bg-purple-800 text-white py-2 rounded-xl text-center text-sm font-semibold"
                 >
                   View Live
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
