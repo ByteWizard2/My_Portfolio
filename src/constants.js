@@ -111,7 +111,7 @@ export const SkillsInfo = [
       date: "Sept 2020 - July 2023",
       grade: "80.33%",
       desc: "I completed my  degree in Bachelor's Computer Applicatio (B.C.A) from GFGC college Kushalnagar. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at GFGC College allowed me to work on projects that applied theoretical concepts to real-world problems.",
-      degree: "Master of Computer Applications - MCA",
+      degree: "Bachelor's of Computer Applications - BCA",
     },
     {
       id: 2,
